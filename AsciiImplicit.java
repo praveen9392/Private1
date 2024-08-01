@@ -1,5 +1,5 @@
 class AsciiImplicit
-{
+{1111
  public static void main(String args[])
  {
    char  ch=' '; //it can hold one character 

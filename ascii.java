@@ -1,18 +1,18 @@
-class AsciiImplicit
+class ascii
 {
  public static void main(String args[])
  {
-   char  ch=' '; //it can hold one character 
+  int  A=20; 
  
-     if (ch>='A' && ch<='z') 
+     if (A>=60 && A<=90) 
      {
      System.out.println("Upper case");
      }
-     else if (ch>='a' && ch<='z')
+     else if (A>=97 && A<=122)
      {
       System.out.println("lower case");
      }
-     else if (ch>='0' && ch<='9')
+     else if (A>=48 && A<=57)
      { 
      System.out.println("number");
      }
